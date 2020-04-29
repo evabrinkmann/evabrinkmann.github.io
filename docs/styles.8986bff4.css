@@ -2,6 +2,11 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  background: url(/tianjin.c18ab94e.jpg) no-repeat;
+  background-size: cover;
+  background-color: black;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 .box {
   width: 400px;
@@ -12,21 +17,22 @@ body {
   color: white;
   font-family: "Century Gothic", sans-serif;
   border-radius: 5px;
-  box-shadow: 1px 3px 12px #87888a;
-  background-image: linear-gradient(315deg, #868484 0%, #f1f2f6 74%);
-  scroll-behavior: smooth;
-  overflow-y: scroll;
+  background: rgba(145, 145, 145, 0.4);
 }
 .box-img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
   object-fit: cover;
+  margin-bottom: 30px;
+  border: 1px solid white;
 }
 .box h1 {
   font-size: 40px;
   letter-spacing: 4px;
   font-weight: 100;
+  color: #ff206c;
+  margin-top: 0;
 }
 .box h5 {
   font-size: 20px;
@@ -37,10 +43,17 @@ body {
   text-align: justify;
 }
 .box span {
-  color: #e91e63;
+  color: #ff206c;
+}
+.text-background {
+  background: #474748cf;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid white;
 }
 ul {
-  margin: 0;
+  margin-top: 20px;
   padding: 0;
 }
 .box li {
@@ -55,7 +68,7 @@ ul {
   transition: all ease-in-out 250ms;
 }
 .box li a:hover {
-  color: #d4d3d3;
+  color: #ff206c;
 }
 
 
