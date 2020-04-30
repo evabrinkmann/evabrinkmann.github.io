@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evabrinkmann/evabrinkmann.github.io.git"
+    "url": "git+https://github.com/evabrinkmann/evas-page.git"
   },
   "author": "Eva Brinkmann <brinkmann.eva@web.de>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/evabrinkmann/evabrinkmann.github.io/issues"
+    "url": "https://github.com/evabrinkmann/evas-page/issues"
   },
   "homepage": "https://github.com/evabrinkmann/evas-page#readme",
   "dependencies": {
